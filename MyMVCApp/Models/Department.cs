@@ -12,6 +12,8 @@ namespace MyMVCApp.Models
     {
         public int ID { get; set; }
         public String Name { get; set; }
+
+        public String Type { get; set; }
         public List<Employee> Employees { get; set; }
 
 

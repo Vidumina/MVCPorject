@@ -11,6 +11,8 @@ namespace MyMVCApp.Models
     public class Department
     {
         public int ID { get; set; }
+
+        
         public String Name { get; set; }
         public List<Employee> Employees { get; set; }
 
